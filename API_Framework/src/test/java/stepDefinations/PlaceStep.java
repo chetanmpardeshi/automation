@@ -76,6 +76,12 @@ public class PlaceStep extends Utils {
 	 @Given("^DeletePlace Payload$")
 	 public void deleteplace_Payload() throws IOException {
 		 res = given().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
+		 
+		 System.out.println("github test1");
+		 System.out.println("github test2");
+		 System.out.println("github test3");
+		 System.out.println("github test4");
+		 System.out.println("github test5");
 	 }
 
 }

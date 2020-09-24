@@ -71,6 +71,9 @@ public class PlaceStep extends Utils {
 		 user_calls_with_the_http_request(resource, "GET");
 		 String actualName = getJsonPath(response, "name");
 		 assertEquals(actualName, expectedName);
+		 System.out.print("testtttttttt");
+		 System.out.print("dev branch 1");
+		 System.out.print("dev branch 2");
 	 }
 
 	 @Given("^DeletePlace Payload$")
